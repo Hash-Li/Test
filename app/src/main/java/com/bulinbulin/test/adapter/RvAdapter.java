@@ -21,5 +21,6 @@ public class RvAdapter extends BaseQuickAdapter<String, BaseViewHolder> {
     @Override
     protected void convert(BaseViewHolder helper, String item) {
         helper.setText(R.id.bt, item);
+        helper.addOnClickListener(R.id.bt);
     }
 }
