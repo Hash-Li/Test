@@ -46,4 +46,9 @@ dependencies {
 
     //AOP切面编程
     implementation 'org.aspectj:aspectjrt:1.8.9'
+
+    //appbar
+    implementation 'com.android.support:design:27.1.1'
+    //嵌套滑动的webview
+    implementation 'com.github.rhlff:NestedScrollWebView:v1.0.2'
 }

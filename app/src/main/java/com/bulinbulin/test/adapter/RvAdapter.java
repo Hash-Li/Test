@@ -15,7 +15,7 @@ import java.util.List;
 public class RvAdapter extends BaseQuickAdapter<String, BaseViewHolder> {
 
     public RvAdapter(@Nullable List<String> data) {
-        super(R.layout.activity_b, data);
+        super(R.layout.adapter_item, data);
     }
 
     @Override

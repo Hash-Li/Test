@@ -21,7 +21,7 @@
         android:id="@+id/bt_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="官方嵌套滑动，webview+recycler评论，有回弹问题"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -31,7 +31,7 @@
         android:id="@+id/bt_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="新闻页自定义webvie+recyclerview评论，流畅滑动"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -52,11 +52,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <!--<com.scwang.smartrefresh.header.MaterialHeader-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent" />
 
-        </android.support.v7.widget.RecyclerView>
+        <!--<com.scwang.smartrefresh.layout.footer.ClassicsFooter-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
     </com.scwang.smartrefresh.layout.SmartRefreshLayout>
 </LinearLayout>

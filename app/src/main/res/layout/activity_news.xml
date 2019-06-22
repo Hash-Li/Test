@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <com.bulinbulin.test.view.NestedScrollingDetailContainer
+            android:id="@+id/nsdc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.bulinbulin.test.view.NestedScrollingWebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="nested_scroll_webview" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="不可滑动的View"
+                android:textSize="30dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="nested_scroll_recyclerview">
+
+            </android.support.v7.widget.RecyclerView>
+        </com.bulinbulin.test.view.NestedScrollingDetailContainer>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>
